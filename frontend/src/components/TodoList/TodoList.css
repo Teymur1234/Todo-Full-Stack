@@ -1,0 +1,31 @@
+.todoList {
+    margin-top: 30px;
+    border: 2px solid #8d99ae;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .todoList ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d99ae;
+    color: #edf2f4;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  .todoList ul li:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+  .todoList ul li span {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  
+  .todoActions {
+    display: flex;
+    gap: 5px;
+  }
+  
